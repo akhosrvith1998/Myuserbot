@@ -11,7 +11,7 @@ admin_id = 7824772776
 client = TelegramClient('session', api_id, api_hash)
 
 # پاک‌سازی فایل کاربران قبلی
-with open("known_users.json""w") as f:
+with open("known_users.json", "w") as f:
     f.write("{}")
 
 known_users = {}
